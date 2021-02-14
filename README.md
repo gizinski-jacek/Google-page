@@ -1,0 +1,1 @@
+Creating copy of Google homepage for The Odin Project.
