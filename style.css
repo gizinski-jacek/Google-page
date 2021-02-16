@@ -1,4 +1,13 @@
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.page-container {
+    position: relative;
+}
+
 .main {
     position: relative;
     text-align: center;
@@ -10,23 +19,24 @@
 }
 
 .logo {
-    display: box;
+    display: block;
     padding-top: 180px;
 }
 
-.search-field, .search-buttons {
+.search-field {
     position: relative;
     padding-top: 35px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.search-buttons {
+    position: relative;
+    padding-top: 35px;
 }
 
-li {
-    display: inline;
-    width: 60px;
-    padding: 10px;
+.footer {
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
 }
+
