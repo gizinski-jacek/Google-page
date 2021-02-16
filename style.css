@@ -1,16 +1,22 @@
 
-
-#logo {
-    display: box;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.main {
+    position: relative;
+    text-align: center;
 }
 
-.search-box {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.navigation {
+    display: block;
+    text-align: right;
+}
+
+.logo {
+    display: box;
+    padding-top: 180px;
+}
+
+.search-field, .search-buttons {
+    position: relative;
+    padding-top: 35px;
 }
 
 ul {
@@ -19,13 +25,8 @@ ul {
     padding: 0;
 }
 
-#navigation-bar {
-    float: right;
-}
-
 li {
     display: inline;
     width: 60px;
     padding: 10px;
 }
-
