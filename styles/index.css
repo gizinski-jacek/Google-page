@@ -75,7 +75,7 @@ body {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 
-input[type=text] {
+input[type=search] {
     background-color: rgb(255, 255, 255);
     outline: none;
     display: flex;
@@ -141,11 +141,11 @@ input[type=submit]:hover {
     padding-right: 15px;
 }
 
-li {
-    display: inline;
-}
-
 footer li:hover {
     color:rgb(100, 100, 100);
     text-decoration: underline;
+}
+
+li {
+    display: inline;
 }
