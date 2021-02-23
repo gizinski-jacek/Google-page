@@ -6,7 +6,7 @@ body {
     font-size: 14px;
     min-width: 1200px;
     height: 100%;
-    min-height: 1500px;
+    min-height: 1800px;
 }
 
 .upper-bar {
@@ -172,7 +172,7 @@ h1 {
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 0.25px;
-    padding: 1px 0 1px 0;
+    padding: 6px 0 6px 0;
 }
 
 h2 {
@@ -205,19 +205,75 @@ h5 {
     color: black;
     font-size: 20px;
     font-weight: 400;
-    margin: 0 0 10px 0;
+    margin: 30px 0 30px 0;
 }
 
 .related {
     display: flex;
+    margin-bottom: 50px;
+}
+
+.related-links {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    width: 100%;
 }
 
 .related-links a {
     text-decoration: none;
     color: blue;
+}
+
+.related-links ul {
+    padding: 3px 0 3px 0;
     letter-spacing: 0.25px;
     line-height: 20px;
     font-size: 14px;
+}
+
+.page-number {
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 30px repeat(10, 25px) 60px 40px;
+    grid-template-rows: 30px 30px;
+    grid-template-areas: 
+    "G p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 next1 next2"
+    "G p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 next3 next2";
+}
+
+.page-number img {
+    height: 20px;
+}
+
+.page-number div {
+    text-align: center;
+}
+
+.page-number span {
+    display: flex;
+    color: orange;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.page0 {grid-area: G;}
+.page1 {grid-area: p1;}
+.page2 {grid-area: p2;}
+.page3 {grid-area: p3;}
+.page4 {grid-area: p4;}
+.page5 {grid-area: p5;}
+.page6 {grid-area: p6;}
+.page7 {grid-area: p7;}
+.page8 {grid-area: p8;}
+.page9 {grid-area: p9;}
+.page10 {grid-area: p10;}
+.page11 {grid-area: next1;}
+.page12 {grid-area: next2;}
+
+.page-number a:hover {
+    text-decoration: underline;
 }
 
 p {
