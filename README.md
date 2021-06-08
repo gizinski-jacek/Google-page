@@ -1,7 +1,3 @@
-2021-02-14  Creating copy of Google homepage for The Odin Project.
+# 2021-02-14  Copy of Google homepage and Google results page .
 
-2021-02-19  Finished page, although could use some polish.
-
-2021-02-20  Started working on Google results page.
-
-2021-02-23  Finished the Google results page.
+First two projects to test out my initial understanding of HTML and CSS following The Odin Project curriculum.
